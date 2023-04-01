@@ -1,0 +1,96 @@
+.hamburger
+    position: absolute
+    top: 20px
+    right: 30px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-end
+    height: 21px
+    cursor: pointer
+    span
+        width: 30px
+        height: 3px
+        background: #151812
+        padding-bottom: 2px
+        &:nth-child(2)
+            width: 36px
+.menu
+    position: fixed
+    z-index: 10
+    height: 100vh
+    width: 100%
+    top: 0
+    visibility: hidden
+    opacity: 0
+    left: -100%
+    transition: all 0.6s
+    &.active
+        left: 0
+        visibility: visible
+        opacity: 1
+    &__block
+        width: 345px
+        height: 100%
+        background: $main-color
+        position: relative
+        z-index: 10
+        padding-top: 140px
+        padding-left: 40px
+        transition: all 0.6s
+    &__close
+        position: absolute
+        right: 25px
+        top: 25px
+        font-size: 40px
+        line-height: 10px
+        cursor: pointer
+    &__list
+        list-style-type: none
+        margin-bottom: 0
+        padding-left: 35px
+    &__link
+        margin-bottom: 15px
+        a
+            font-weight: 700
+            font-size: 21px
+            line-height: 36px
+            color: #fff
+            text-decoration: none
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                width: 15px
+                height: 15px
+                border-radius: 100%
+                border: 1px solid #000000
+                left: -35px
+                top: 7px
+                transition: all 0.6s
+            &:hover
+                &::before
+                    background-color: #fff
+    &__social
+        position: absolute
+        bottom: 50px
+        left: 50%
+        transform: translateX(-50%)
+        display: flex
+        justify-content: space-between
+        width: 90px
+        a  
+            text-decoration: none
+            img
+                max-width: 20px
+                max-height: 20px
+    &__overlay
+        top: 0
+        left: 0
+        height: 100%
+        width: 100%
+        position: fixed
+        background-color: #fff
+        opacity: 0.8        
+
+                

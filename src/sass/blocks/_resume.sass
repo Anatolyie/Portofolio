@@ -1,0 +1,75 @@
+.resume
+    &__title
+        margin-top: 120px
+        text-align: center
+        position: relative
+        @include before_circle2
+    &__subtitle
+        text-align: center
+    &__wrapper
+        padding: 60px 65px 0 
+        display: grid
+        grid-template-columns: repeat(2, 425px)
+        column-gap: 140px
+    &__column
+        &_title
+            margin-bottom: 0
+            padding-left: 43px
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                width: 15px
+                height: 15px
+                border-radius: 100%
+                background: $main-color
+                left: 0
+                top: 50%
+                transform: translateY(-50%)  
+        ul
+            list-style-type: none
+        li
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                height: calc(100% + 30px)
+                width: 1px
+                background-color: #000
+                left: -25px
+                top: -33px
+              
+    &__head
+        margin-top: 25px
+        padding-left: 80px
+        position: relative
+    &__body
+        margin-top: 12px
+        padding-left: 19px
+    &__item
+        &_circle
+            position: absolute
+            width: 36px
+            height: 36px
+            border-radius: 100%
+            background: $main-color
+            left: 19px
+            &::before
+                content: ''
+                position: absolute
+                width: 43px
+                height: 1px
+                background-color: #000
+                left: -43px
+                top:  15px
+            img
+                padding-top: 15px
+                padding-left: 15px
+        &_location
+            font-weight: 500
+            font-size: 12px
+            line-height: 18px
+        &_text
+            font-weight: 500
+            font-size: 12px
+            line-height: 18px
