@@ -27,20 +27,14 @@ function Footer() {
                             <span className='text-gray-300 font-[600] text-[15px]'>Follow Me:</span>
 
                             <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
-                                    <i class="ri-github-line"></i>
+                                <a href="https://www.linkedin.com/in/anatolii-boboc-46a888289/" target='_blank'  className='text-gray-300 font-[500] text-[18px]'>
+                                    <i class="ri-linkedin-box-fill"></i>
                                 </a>
                             </span>
 
                             <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
-                                    <i class="ri-github-line"></i>
-                                </a>
-                            </span>
-
-                            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                                <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
-                                    <i class="ri-github-line"></i>
+                                <a  href="https://github.com/Anatolyie" target='_blank'  className='text-gray-300 font-[500] text-[18px]'>
+                                    <i className='ri-github-fill'></i>
                                 </a>
                             </span>
                         </div>
@@ -68,7 +62,7 @@ function Footer() {
                 <div className="container">
                     <div className='flex items-center justify-center sm:justify-between'>
 
-                    <div className='hidden sm:block'>
+                    <a href="#about" className='hidden sm:block'>
                         <div className='flex items.center gap-[10px]'>
                             <span className='w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500]
                             text-[18px] flex items-center justify-center'>M
@@ -81,7 +75,7 @@ function Footer() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
                     <div>
                         <p className='text-gray-400 text-[14px]'>

@@ -6,12 +6,12 @@ import uiImg from '../../assets/images/design.png'
 
 function Service(props) {
     return (
-        <section id='services'>
+        <section id='services' className='pt-10'>
             <div className='container lg:pt-5'>
                 <div className='text-center'>
                     <h2 className='text-headingColor font-[700] text-[2.4rem] mb-5'>What do I help</h2>
-                    <p className='lg:max-w-[600] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga modi obcaecati deleniti repellat voluptatem non possimus sapiente perspiciatis, quisquam accusantium sit ipsa dolore nemo dicta architecto nisi. Nemo, consectetur alias?
+                    <p className='lg:max-w-[600] lg:mx-auto text-headingColor font-[500] text-[18px] leading-7'>
+                    I am an experienced front-end developer specialized in creating interactive and high-performance web applications, with strong expertise in TypeScript, JavaScript, Node.js, and Redux Toolkit.
                     </p>
                 </div>
 
@@ -84,8 +84,8 @@ function Service(props) {
                                 </div>
                             </div>
 
-                              {/* {card left} */}
-                              <div className='mt-6 sm:mt-0 sm:mb-12'>
+                             {/* {card left} */}
+                             <div className='mt-6 sm:mt-0 sm:mb-12'>
                                 <div className='flex items-center flex-col sm:flex-row'>
 
                                     <div className='flex justify-start w-full mx-auto items-center'>
@@ -109,7 +109,7 @@ function Service(props) {
                                     left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center
                                     '>
                                         <figure>
-                                            <img src={appsImg} alt="frontend" />
+                                            <img src={frontendImg} alt="frontend" />
                                         </figure>
                                     </div>
                                 </div>
@@ -139,13 +139,12 @@ function Service(props) {
                                     <div className='rounded-full bg-primaryColor border-white border-4 w-10 -h-10 absolute
                                     left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center
                                     '>
-                                        <figure>
-                                            <img src={uiImg} alt="frontend" />
+                                        <figure> 
+                                            <img src={backendendImg} alt="frontend" />
                                         </figure>
                                     </div>
                                 </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

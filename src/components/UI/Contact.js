@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <section id='contact' className='pb-16'>
+        <section id='contact' className='pb-16 mt-5'>
             <div className='container'>
 
                 <div className='w-full md:w-1/3 mt-8 md:mt-0 mx-auto lg:flex items-center bg-indigo-100

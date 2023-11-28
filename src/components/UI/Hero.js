@@ -1,4 +1,3 @@
-import heroImg from '../../assets/images/hero.svg'
 import my from '../../assets/images/my-2.jpeg'
 import CountUp from "react-countup"
 
@@ -12,7 +11,7 @@ function Hero() {
                             data-aos="fade-right"
                             data-aos-duration="1500"
                             className='text-headingColor font-[500] text-[16px]'>
-                            Hello Weolcome
+                            Hello Welcome
                         </h5>
                         <h1
                             data-aos="fade-up"
@@ -26,7 +25,7 @@ function Hero() {
                         <div
                             data-aos="fade-up"
                             data-aos-duration="1800"
-                            className='flex items-center gap-6 mt-6'
+                            className='flex items-center gap-6 mt-6 mb-6'
                         >
                             <a href="#contact">
                                 <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
@@ -42,31 +41,26 @@ function Hero() {
                         <p
                             data-aos="fade-left"
                             data-aos-duration="1500"
-                            className='flex gap-2 text-headingColor mt-15 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10 '
+                            className='flex gap-2 text-headingColor font-[500] text-[15px] leading-7 sm:pl-10 sm:pr-10 '
                         >
                             <span>
                                 <i class="ri-apps-2-line"></i>
                             </span>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dicta aperiam itaque voluptate quo nulla autem pariatur totam id soluta, vitae facere quis sapiente tempora suscipit iusto! Temporibus, voluptas placeat!
+                            As a web developer who loves working with React, JavaScript, TypeScript and Redux Toolkit, I take pride in creating user-friendly websites and staying at the forefront of the latest web development trends. My passion for coding drives me to continuously learn and improve, ensuring that I deliver top-notch solutions for every project. I'm enthusiastic about collaborating with like-minded professionals to bring innovative web experiences to life.
                         </p>
 
-                        <div className='flex items-center gap-9 mt-14'>
+                        <div className='flex items-center gap-5 mt-7'>
                             <span className='text-smallTextColor text-[15px] font-[500]'>
-                                Follow me
+                                Follow me:
                             </span>
                             <span>
-                                <a href="#" className='text-smallTextColor text-[18px] font-[600]'>
-                                    <i className='ri-youtube-line'></i>
+                                <a href="https://www.linkedin.com/in/anatolii-boboc-46a888289/" target='_blank' className='text-smallTextColor text-[18px] font-[600]'>
+                                    <i class="ri-linkedin-box-fill"></i>
                                 </a>
                             </span>
                             <span>
-                                <a href="#" className='text-smallTextColor text-[18px] font-[600]'>
+                                <a href="https://github.com/Anatolyie" target='_blank' className='text-smallTextColor text-[18px] font-[600]'>
                                     <i className='ri-github-fill'></i>
-                                </a>
-                            </span>
-                            <span>
-                                <a href="#" className='text-smallTextColor text-[18px] font-[600]'>
-                                    <i className='ri-facebook-line'></i>
                                 </a>
                             </span>
                         </div>
