@@ -6,7 +6,7 @@ function Modal({ activeID, setShowModal }) {
     return (
         <div className="fixed w-full h-full top-0 left-0 z-10 bg-headingColor bg-opacity-40">
             <div className="w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform
-            -translate-x-1/2 -translate-y-1/2 p-5">
+            -translate-x-1/2 -translate-y-1/2 p-5 overflow-auto h-75vh">
                 <div>
                     <figure>
                         <img className="rounded-[8px]" src={portofolio.imgUrl} alt="portofolio background img" />

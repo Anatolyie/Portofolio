@@ -10,6 +10,9 @@ module.exports = {
         headingColor: "#081e21",
         smallTextColor: "#193256",
       },
+      height: {
+        '75vh': '75vh',
+      },
     },
   },
   plugins: [],
